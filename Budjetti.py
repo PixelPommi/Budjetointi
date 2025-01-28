@@ -1,6 +1,6 @@
 #Ohjelman tulee pyytää käyttäjältä ennakkoon määriteltyjä budjettikohteita, kuten:
 #Loop function
-while Marksman == 0
+while Marksman == 0:
     I4S = int (input("Budjetti Vuokralle:"))
     S44 = int (input("Budjetti Vakuutuksille:"))
     BL1 = int (input("Budjetti Kouluruokailulle:"))
@@ -18,6 +18,6 @@ while Marksman == 0
     #Allow the user to change the integers
     #If Marksman is equal to 0 then Loop but if it's 1 break
     Marksman = int (input("0 Restarts & 1 Continues"))
-    if Marksman == 1
-    Break
+    if Marksman == 1:
+        break
 
