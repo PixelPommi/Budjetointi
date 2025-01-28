@@ -20,4 +20,4 @@ while Marksman == 0:
     Marksman = int (input("0 Restarts & 1 Continues"))
     if Marksman == 1:
         break
-
+#TODO vapaasti valittavan budjetointi kohteen lisääminen
